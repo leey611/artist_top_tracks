@@ -143,7 +143,8 @@
       const inputArtist = document.getElementById('inputArtist').innerText;
       const lastFmBaseUrl = 'http://ws.audioscrobbler.com/2.0/';
 
-      const apiKey = config.API_KEY;
+      //   const apiKey = config.API_KEY;
+      const apiKey = 'd08b204e3587ae24e5476480cfc3a4ba';
       let width = window.innerWidth;
       let height = window.innerHeight;
       var svg = d3
@@ -160,7 +161,7 @@
 
           //console.log(topTracksData)
           testJson = {
-            nodes: topTracksData,
+            nodes: topTracksData
             // 'links': [
             //     { "source": 0, "target": 1 },
             //     { "source": 1, "target": 0 },
