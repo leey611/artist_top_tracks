@@ -65,7 +65,7 @@ body button {
 
 @keyframes text {
   0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
-    text-shadow: 0 0 30px #258FDA;
+    text-shadow: 0 0 30px #258fda;
   }
   21.8%, 23.8%, 66.8%, 84.8% {
     text-shadow: none;
@@ -73,7 +73,7 @@ body button {
 }
 @keyframes frame {
   0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
-    box-shadow: 0 0 60px #258FDA, 0 0 50px #258FDA inset;
+    box-shadow: 0 0 60px #258fda, 0 0 50px #258fda inset;
   }
   21.8%, 23.8%, 66.8%, 84.8% {
     box-shadow: none;

@@ -1,10 +1,9 @@
-
-$green: #8FDA25;
-$blue: #258FDA;
+$green: #8fda25;
+$blue: #258fda;
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   background-color: #000;
@@ -20,11 +19,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-}
+  }
 
-
-#frame {
+  #frame {
     padding: 20px;
     border: 5px solid lighten($blue, 30%);
     border-radius: 15px;
@@ -38,30 +35,26 @@ body {
     }
   }
 
-
-form {
-    
+  form {
     position: relative;
     width: 100%;
-    
+
     line-height: 1.5;
     font-family: Farsan, Helvetica;
     input {
-        display: inline-block;
-        text-align: center;
-        font-size: 28px;
-        color: lighten($blue, 30%);
-        background-color: rgba($color: #000000, $alpha: 0);
-        width: 100%;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid lighten($blue, 30%);
-        font-family: Farsan, Helvetica;
+      display: inline-block;
+      text-align: center;
+      font-size: 28px;
+      color: lighten($blue, 30%);
+      background-color: rgba($color: #000000, $alpha: 0);
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid lighten($blue, 30%);
+      font-family: Farsan, Helvetica;
     }
-    
-    
-}
-button {
+  }
+  button {
     align-self: center;
     color: lighten($blue, 30%);
     font-size: 28px;
@@ -71,27 +64,47 @@ button {
     border-radius: 12px;
     transform: skewX(-6deg);
     cursor: pointer;
+  }
 }
-
-  
-}
-
-
 
 @keyframes text {
-  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+  0%,
+  21.5%,
+  22%,
+  23.5%,
+  24%,
+  66.5%,
+  67%,
+  84.5%,
+  85%,
+  100% {
     text-shadow: 0 0 30px $blue;
   }
-  21.8%, 23.8%, 66.8%, 84.8% {
+  21.8%,
+  23.8%,
+  66.8%,
+  84.8% {
     text-shadow: none;
   }
 }
 
 @keyframes frame {
-  0%, 21.5%, 22%, 23.5%, 24%, 66.5%, 67%, 84.5%, 85%, 100% {
+  0%,
+  21.5%,
+  22%,
+  23.5%,
+  24%,
+  66.5%,
+  67%,
+  84.5%,
+  85%,
+  100% {
     box-shadow: 0 0 60px $blue, 0 0 50px $blue inset;
   }
-  21.8%, 23.8%, 66.8%, 84.8% {
+  21.8%,
+  23.8%,
+  66.8%,
+  84.8% {
     box-shadow: none;
   }
 }
